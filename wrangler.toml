@@ -1,5 +1,8 @@
 name = "olea-worker-email"
 main = "src/main.ts"
 compatibility_date = "2023-05-18"
+routes = [
+  { pattern = "olea-mailer.itsnisu.xyz/*", zone_name = "itsnisu.xyz" }
+]
 
 [env.production]
